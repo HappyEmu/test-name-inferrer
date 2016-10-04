@@ -6,7 +6,7 @@ import java.io.FileInputStream
 fun main(args: Array<String>) {
 
     // Parse Input & generate AST
-    val input = FileInputStream("testdata/TestGJDate.java")
+    val input = FileInputStream("testdata/CustomTests.java")
     val compilationUnit = JavaParser.parse(input)
 
     // Visit AST
